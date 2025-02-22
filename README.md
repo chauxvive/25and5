@@ -1,55 +1,74 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+![Rocktzar logo](https://res.cloudinary.com/mpauldesigns/image/upload/c_scale,q_100,w_200/v1540421311/rocktzar_red.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 25 & 5 
 
-Currently, two official plugins are available:
+A **Pomodoro-style timer** that helps you stay productive by alternating **focus sessions** (25 minutes) with **short breaks** (5 minutes). Perfect for **studying, coding, or deep work sessions**!  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🔗 **Try it out here**](https://chauxvive.github.io/25and5/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🔹 The Project  
 
-- Configure the top-level `parserOptions` property like this:
+This app follows the **Pomodoro Technique**, which boosts productivity by breaking work into focused intervals. Key features include:  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+✅ **Customizable focus & break durations**  
+✅ **Auto-switching between work and rest periods**  
+✅ **Minimalist, distraction-free UI**  
+✅ **Built with React + TypeScript for smooth performance**  
+✅ **Mellow temple bell timer alert**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🔹 Features  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-=======
-# 25and5
-25 and 5 timer
->>>>>>> 8e8e1e3e64f9425cf24e589098452686442eaedd
+- **Adjustable Timers** – Set your own work and break durations  
+- **Auto-Cycle** – Transitions automatically between focus and break periods  
+- **User-Friendly Interface** – Simple, clean design for easy use  
+- **Responsive Design** – Works on desktop & mobile  
+
+---
+
+## 🔹 Technologies Used  
+
+- **React** (Component-based UI)  
+- **TypeScript** (For type safety)  
+- **Vite** (Fast build tool)  
+- **HTML5 & CSS3** (Modern styling)  
+
+---
+
+## 🔹 How to Run Locally  
+
+1. **Clone the repository**  
+   ```git clone https://github.com/chauxvive/25and5.git```
+
+2. **Navigate to the project folder**
+   
+   ```cd 25and5```
+
+4. **Install dependencies**
+
+   ```npm install```
+
+6. **Start the development server**
+   
+   ```npm run dev```
+
+8. **Open the app in your browser**
+   
+Visit:
+   ```http://localhost:5173/```
+
+
+---
+
+
+---
+
+## 🔹 Who Am I?  
+
+I’m a **Software Developer & Marketing Specialist** from Connecticut, open to new roles in **development, project management, and design-driven tech solutions**.  
+
+📩 **Let’s connect!** [LinkedIn](https://www.linkedin.com/in/mpauldesigns/) | [GitHub](https://github.com/chauxvive)  
+
