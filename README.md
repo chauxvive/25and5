@@ -63,9 +63,6 @@ Visit:
 
 ---
 
-
----
-
 ## 🔹 Who Am I?  
 
 I’m a **Software Developer & Marketing Specialist** from Connecticut, open to new roles in **development, project management, and design-driven tech solutions**.  
